@@ -15,7 +15,7 @@ I have created these 2 scripts to compare the databases on Datastax Enterprise C
 Note: Provide the DSE-env and Astra-env as arguments (order: DSE first, Astra second)
 Make changes in config.ini file to modify or add new login credentials of DSE or Astra
 3) In the output folder specified 4 files will be generated.
-	DSE_Columns.csv : All the KeySpaces, Tables and Columns on DSE
+	DSE_Columns.csv : All the KeySpaces, Tables and Columns on DSE \n
 	Astra_Columns.csv: All the KeySpaces, Tables and Columns on Astra(db1,db2)
 	DSE_Columns_filtered.csv: All the KeySpaces, Tables and Columns on DSE minus System KeySpaces
 	DSE_Columns_filtered.csv: All the KeySpaces, Tables and Columns on Astra minus System KeySpaces
