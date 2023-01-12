@@ -44,6 +44,6 @@ Make changes in config.ini file to modify or add new login credentials of DSE or
 	Astra-DSE-KS-Tbl-PK.xlsx: Two sheets - DSE and Astra with fields - KeySpace, TableName, PrimaryKey
 	PrimaryKeyComparison_DSE_ASTRA.xlsx: Final file showing the mismatches in Primary key for the tables that exists both on DSE and Astra
 Note: The System KeySpaces are filtered in the final output file. 
-      "sys_ks" variable holds the list of all system keyspaces ignored for primary key extraction in case of any changes needed.
+      "sys_ks" variable holds the list of all system keyspaces ignored for primary key extraction in case of any changes needed
        
        
