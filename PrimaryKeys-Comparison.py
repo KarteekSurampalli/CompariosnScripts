@@ -7,8 +7,8 @@ import numpy as np
 import sys
 import configparser
 
-dir_path = r'C:\Users\brengasa\Downloads\Karteek\out'   #Output file path
-bundle_path =  r'C:\Users\brengasa\Downloads'    # Astra bundles path
+dir_path = r'C:\Downloads\Karteek\out'   #Output file path
+bundle_path =  r'C:\Downloads'    # Astra bundles path
 config = configparser.ConfigParser()
 config.read('Config.ini')
 sys_ks = ['datastax_sla','data_endpoint_auth','system_auth','system_schema','dse_system_local','dse_system','dse_leases','HiveMetaStore','solr_admin','dse_insights','OpsCenter','dse_insights_local','system_distributed','dse_analytics','system','dse_perf','system_traces','dse_security','dsefs','NA']
