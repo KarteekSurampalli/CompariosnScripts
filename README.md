@@ -2,12 +2,12 @@
 
 I have created these 2 scripts to compare the databases on Datastax Enterprise Cassandra and Astra DB.
 
-Tables-Columns-Comparison.py
+## Tables-Columns-Comparison.py
 
-# This Script gets the keyspaces, tables and columns
-# From DSE and Astra DB1, DB2 
-# Identifies column mismatches on DSE and Astra for the tables present on both databases
-# Identifies Table mismatches on DSE and Astra and determines if they are required on Astra
+-This Script gets the keyspaces, tables and columns
+-From DSE and Astra DB1, DB2 
+-Identifies column mismatches on DSE and Astra for the tables present on both databases
+-Identifies Table mismatches on DSE and Astra and determines if they are required on Astra
 
 1) Change the variable "dir_path" to the desired folder for the output files, "bundle_path" to path where Astra bundles are present.
 2) Execute the python script in terminal
@@ -26,12 +26,12 @@ Note: The System KeySpaces are filtered in the final 2 output files.
       
 
 
-PrimaryKeys-Comparison.py
+## PrimaryKeys-Comparison.py
 
-# This Script gets the query that can be used to recreate the entire schema as a string 
-# From DSE and Astra DB1, DB2 
-# and extracts the KeySpace, TableName, PrimaryKeys from the schema strings for DSE and Astra
-# and looks for the primary key mismatches for the tables that exist both on DSE and Astra
+-This Script gets the query that can be used to recreate the entire schema as a string 
+-From DSE and Astra DB1, DB2 
+-and extracts the KeySpace, TableName, PrimaryKeys from the schema strings for DSE and Astra
+-and looks for the primary key mismatches for the tables that exist both on DSE and Astra
 
 1) Change the variable "dir_path" to the desired folder for the output files, "bundle_path" to path where Astra bundles are present.
 2) Execute the python script in terminal
